@@ -101,7 +101,7 @@ angular.module('leaflet-directive').factory('leafletControlHelpers', function($r
       },
 
       createControl: function(params) {
-        return new L.Control.Fullscreen(params);
+        return new L.control.fullscreen(params);
       },
     },
     search: {
